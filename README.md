@@ -1,1 +1,1 @@
-A simple todo list app made using flutter and sqlite
+A simple todo list app made using flutter, shared preferences and provider
