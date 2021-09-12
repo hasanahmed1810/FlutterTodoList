@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:todoey_flutter/models/task_data.dart';
 import 'screens/tasks_screens.dart';
 
-void main() {
+void main() async {
   runApp(MyApp());
 }
 
