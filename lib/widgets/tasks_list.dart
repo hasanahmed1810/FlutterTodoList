@@ -14,7 +14,7 @@ class TasksList extends StatelessWidget {
               isChecked: taskData.tasks[index].isDone,
               checkboxCallback: (checkboxState){
                 taskData.updateTask(taskData.tasks[index]);
-                Future.delayed(const Duration(milliseconds: 1000), () {
+                Future.delayed(const Duration(milliseconds: 500), () {
                   taskData.deleteTask(taskData.tasks[index]);
                 });
               },
